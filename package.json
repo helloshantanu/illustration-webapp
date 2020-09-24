@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/helloshantanu/illustration-webapp/issues"
   },
-  "homepage": "https://github.com/helloshantanu/illustration-webapp#readme"
+  "homepage": "https://github.com/helloshantanu/illustration-webapp#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
 }

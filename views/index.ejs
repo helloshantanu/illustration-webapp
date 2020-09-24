@@ -1,0 +1,34 @@
+<%- include ('partials/header.ejs'); -%>
+
+<div class=" container justify-content-left ">
+    <div class="jumbotron ">
+        
+        <div class="d-flex justify-content-center top">
+           <ul>
+               <li> <h4>Submit your Illustration Here</h4>
+                <img src="./img/cityscapes.png" alt=""></li>
+           </ul>
+        </div>
+        <form method="POST" action="/">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Name Your illustration</label>
+              <input type="text" class="form-control" name="name" placeholder="The monalisa fake">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Author</label>
+              <input type="text" class="form-control" name="author" placeholder="Eg:- Shantanu Jain">
+            </div>
+            <label for="textgroup">Choose Illustration File</label>
+            <div class="form-group">
+                <input type="text" class="form-control" name="img" placeholder="Enter a url ">
+              </div>
+            
+            <button class="btn btn-success" type="submit">Submit!</button>
+            
+        </form>
+
+    </div>
+</div>
+
+<a href="/illustration"> Link to illustartion</a>
+<%- include ('partials/footer.ejs')  -%> 

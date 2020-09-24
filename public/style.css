@@ -1,0 +1,13 @@
+body{
+    background-image: url(./img/bg.png);
+}
+
+.top{
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.btn{
+    margin-top: 30px;
+}
